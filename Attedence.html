@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Admin</title>
+    <link rel="stylesheet" href="Attedence.css" />
+    
+    <!-- Font Awesome Cdn Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+</head>
+
+<body>
+    <div class="container">
+        <section class="main">
+            <div class="main-top">
+                <h1>Admin-Panel</h1>
+                <i class="fas fa-user-cog"></i>
+            </div>
+
+
+            <div class="documents-user-profile">
+                <div class="user-image">
+                    <img src="./img/img4.jpg" alt="">
+                </div>
+                <div class="user-details-flex">
+                    <div class="user-details-row">
+                        <p>LUR IT BUSSINESS SOLUTIONS PVT.LTD</p>
+                        <div class="user-social-row">
+                            <p><i class="fa-solid fa-magnifying-glass-location"></i><span>Location</span></p>
+                            <p><i class="fa-solid fa-envelope"></i><span>manikanta@gmail.com</span></p>
+                            <p><i class="fa-solid fa-phone"></i><span>+91 99999 77777</span></p>
+                        </div>
+                    </div>
+                    <div class="user-job-row">
+                        <table>
+                            <tr>
+                                <!-- <th>Job Title</th> -->
+                                <th>Designation</th>
+                                <th>Employee Id</th>
+                            </tr>
+                            <tr>
+                                <!-- <td>Junior</td> -->
+                                <td>Admin</td>
+                                <td>LUR 001</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <section class="attendance">
+                <div class="attendance-list">
+                    <h1>Attendance List</h1>
+                    <div class="filter-options">
+                        <div class="filter-option">
+                            <label for="date">Filter's</label>
+                            <select id="date">
+                                <option value="date1">Daily</option>
+                                <option value="date2">Weekly</option>
+                                <option value="date3">Monthly</option>
+                                <option value="date4">Yearly</option>
+                            </select>
+                        </div>
+                        <div class="filter-option">
+                            <label for="name">Employee Name</label>
+                            <select id="name">
+                                <option value="name1">Mahesh</option>
+                                <option value="name2">Balakrishna</option>
+                                <option value="name3">Naveen</option>
+                                <option value="name4">Sai</option>
+                                <option value="name5">Harsha</option>
+                                <option value="name6">Navya</option>
+                                <option value="name7">Manoj</option>
+                                <option value="name8">Kavya</option>
+                                <option value="name9">Harshavardhan</option>
+                                <option value="name10">Bhavya</option>
+                            </select>
+                        </div>
+
+                        <input type="date">
+                    </div>
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>ID</th>
+                                <th>Name</th>
+                                <th>Designation</th>
+                                <th>Date</th>
+                                <th>Signin Time</th>
+                                <th>Signout Time</th>
+                                <th>Total Hour's</th>
+                                <th>Details</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>LUR 011</td>
+                                <td>Mahesh</td>
+                                <td>JavaDevolper</td>
+                                <td>01/12/2023</td>
+                                <td>8:00AM</td>
+                                <td>4:00PM</td>
+                                <td>8:00 Hr's</td>
+                                <td><button><a rel="stylesheet" href="mahesh.html">View</a></button></td>
+                            </tr>
+                            <!-- <tr class="active"> -->
+                            <tr>
+                                <td>LUR 012</td>
+                                <td>Balakrishna</td>
+                                <td>Testing</td>
+                                <td>01/12/2023</td>
+                                <td>9:00AM</td>
+                                <td>5:00PM</td>
+                                <td>8:00 Hr's</td>
+                                <td><button><a rel="stylesheet" href="balakrishna.html">View</a></button></td>
+                            </tr>
+                            <tr>
+                                <td>LUR 013</td>
+                                <td>Naveen</td>
+                                <td>Python</td>
+                                <td>01/12/2023</td>
+                                <td>8:00AM</td>
+                                <td>4:00PM</td>
+                                <td>8:00 Hr's</td>
+                                <td><button><a rel="stylesheet" href="naveen.html">View</a></button></td>
+                            </tr>
+                            <tr>
+                                <td>LUR 014</td>
+                                <td>Sai</td>
+                                <td>Andriod</td>
+                                <td>01/12/2023</td>
+                                <td>8:00AM</td>
+                                <td>4:00PM</td>
+                                <td>8:00 Hr's</td>
+                                <td><button><a rel="stylesheet" href="sai.html">View</a></button></td>
+                            </tr>
+                            <tr>
+                                <td>LUR 015</td>
+                                <td>Harsha</td>
+                                <td>Testing</td>
+                                <td>01/12/2023</td>
+                                <td>9:00AM</td>
+                                <td>5:00PM</td>
+                                <td>8:00 Hr's</td>
+                                <td><button><a rel="stylesheet" href="harsha.html">View</a></button></td>
+                            </tr>
+                            <tr>
+                                <td>LUR 016</td>
+                                <td>Navya</td>
+                                <td>DevOps</td>
+                                <td>01/12/2023</td>
+                                <td>9:00AM</td>
+                                <td>5:00PM</td>
+                                <td>8:00 Hr's</td>
+                                <td><button><a rel="stylesheet" href="navya.html">View</a></button></td>
+                            </tr>
+                            <tr>
+                                <td>LUR 017</td>
+                                <td>Manoj</td>
+                                <td>PythonDevolper</td>
+                                <td>01/12/2023</td>
+                                <td>9:00AM</td>
+                                <td>5:00PM</td>
+                                <td>8:00 Hr's</td>
+                                <td><button><a rel="stylesheet" href="manoj.html">View</a></button></td>
+                            </tr>
+                            <tr>
+                                <td>LUR 018</td>
+                                <td>Kavya</td>
+                                <td>JavaDevolper</td>
+                                <td>01/12/2023</td>
+                                <td>9:00AM</td>
+                                <td>5:00PM</td>
+                                <td>8:00 Hr's</td>
+                                <td><button><a rel="stylesheet" href="kavya.html">View</a></button></td>
+                            </tr>
+                            <tr>
+                                <td>LUR 019</td>
+                                <td>Harshavardhan</td>
+                                <td>Testing</td>
+                                <td>01/12/2023</td>
+                                <td>9:00AM</td>
+                                <td>5:00PM</td>
+                                <td>8:00 Hr's</td>
+                                <td><button><a rel="stylesheet" href="harshavardhan.html">View</a></button></td>
+                            </tr>
+                            <tr>
+                                <td>LUR 020</td>
+                                <td>Bhavya</td>
+                                <td>DevOps</td>
+                                <td>01/12/2023</td>
+                                <td>9:00AM</td>
+                                <td>5:00PM</td>
+                                <td>8:00 Hr's</td>
+                                <td><button><a rel="stylesheet" href="bhavya.html">View</a></button></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+        </section>
+    </div>
+
+</body>
+
+</html>

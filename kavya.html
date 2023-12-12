@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>User</title>
+    <link rel="stylesheet" href="User.css" />
+    <!-- Font Awesome Cdn Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+
+</head>
+
+<body>
+    <div class="container">
+        <section class="main">
+            <div class="main-top">
+                <h1>User-Panel</h1>
+                
+                <i class="fas fa-user-cog"></i>
+            </div>
+                    <div class="documents-user-profile">
+                <div class="user-image">
+                    <img src="./img/img2.jpg" alt="">
+                </div>
+                <div class="user-details-flex">
+                    <div class="user-details-row">
+                        <p>LUR IT BUSSINESS SOLUTIONS PVT.LTD</p>
+                        <div class="user-social-row">
+                            <p><i class="fa-solid fa-magnifying-glass-location"></i><span>Location</span></p>
+                            <p><i class="fa-solid fa-envelope"></i><span>kavya@gmail.com</span></p>
+                            <p><i class="fa-solid fa-phone"></i><span>+91 99999 88888</span></p>
+                        </div>
+                    </div>
+                    <div class="user-job-row">
+                        <table>
+                            <tr>
+                                <!-- <th>Job Title</th> -->
+                                <th>Designation</th>
+                                <th>Employee Id</th>
+                            </tr>
+                            <tr>
+                                <!-- <td>Junior</td> -->
+                                <td>Java Engineer</td>
+                                <td>LUR 018</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            
+            <section class="attendance">
+                <div class="attendance-list">
+                    <h1>Attendance List</h1>
+                    <div class="filter-options">
+                        <div class="filter-option">
+                            <label for="date">Filter's</label>
+                            <select id="date">
+                                <option value="date1">Daily</option>
+                                <option value="date2">Weekly</option>
+                                <option value="date3">Monthly</option>
+                                <option value="date4">Yearly</option>
+                            </select>
+                        </div>
+                        <input type="date" class="calender">
+                    </div>
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>ID</th>
+                                <th>Name</th>
+                                <th>Designation</th>
+                                <th>Date</th>
+                                <th>Signin Time</th>
+                                <th>Signout Time</th>
+                                <th>Total Hour's</th>
+                                <!-- <th>Details</th> -->
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>LUR 018</td>
+                                <td>Kavya</td>
+                                <td>Java Developer</td>
+                                <td>01/12/2023</td>
+                                <td>8:00AM</td>
+                                <td>4:00PM</td>
+                                <td>8:00 Hr's</td>
+                                <!-- <td><button>View</button></td> -->
+                            </tr>
+                            <tr>
+                                <td>LUR 018</td>
+                                <td>Kavya</td>
+                                <td>Java Developer</td>
+                                <td>02/12/2023</td>
+                                <td>8:30AM</td>
+                                <td>4:30PM</td>
+                                <td>8:00 Hr's</td>
+                                <!-- <td><button>View</button></td> -->
+                            </tr>
+                            <tr>
+                                <td>LUR 018</td>
+                                <td>Kavya</td>
+                                <td>Java Developer</td>
+                                <td>03/12/2023</td>
+                                <td>8:20AM</td>
+                                <td>4:20PM</td>
+                                <td>8:00 Hr's</td>
+                                <!-- <td><button>View</button></td> -->
+                            </tr>
+                            <tr>
+                                <td>LUR 018</td>
+                                <td>Kavya</td>
+                                <td>Java Developer</td>
+                                <td>04/12/2023</td>
+                                <td>8:10AM</td>
+                                <td>4:40PM</td>
+                                <td>8:30 Hr's</td>
+                                <!-- <td><button>View</button></td> -->
+                            </tr>
+                            <tr>
+                                <td>LUR 018</td>
+                                <td>Kavya</td>
+                                <td>Java Developer</td>
+                                <td>05/12/2023</td>
+                                <td>8:50AM</td>
+                                <td>5:00PM</td>
+                                <td>8:10 Hr's</td>
+                                <!-- <td><button>View</button></td> -->
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+        </section>
+    </div>
+</body>
+</html>
